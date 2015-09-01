@@ -11,6 +11,9 @@
   "dependencies": {
     "lodash": "3.10.0"
   },
+  "scripts": {
+    "test": "grunt"
+  },
   "keywords": [
     "error",
     "template",
