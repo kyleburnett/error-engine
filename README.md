@@ -4,6 +4,16 @@ This module provides a base class for easy Node error message templating. Use No
 "util" to inherit from the ErrorEngine base class. See below for an example, and see the `tests.js`
 file for more examples.
 
+## Use
+
+#### `ErrorEngine(options, dictionary, key, params)`
+
+- `options`: The options object
+    - `options.auto_template`: Indicate's whether or not the object should be templated using lodash's template function (optional)
+- `dictionary`: The dictionary of error messages mapping keys to values.
+- `key`: The key to use to construct the error message.
+- `params`: The parameters used when compiling an error message. (optional)
+
 ## Example
 
 ```
